@@ -5,6 +5,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #E5E5E5;
+    margin: 0;
+
 }
 
 main {
@@ -131,4 +133,23 @@ h1 {
 .blog-duration {
     display: flex;
     justify-content: space-between;
+}
+
+
+
+
+
+/* footer section start  */
+.goal {
+    /* color: #E5E5E5; */
+    text-align: center;
+}
+
+.footer-menu {
+    display: flex;
+
+}
+
+.list-item {
+    list-style: none;
 }
