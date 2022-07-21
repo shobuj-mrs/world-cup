@@ -7,6 +7,7 @@ body {
     background: #E5E5E5;
     margin: 0;
 
+
 }
 
 main {
@@ -17,7 +18,7 @@ main {
 
 .container {
     background-color: #fff;
-    width: 1200px;
+    width: 1277px;
     margin-bottom: 80px;
 }
 
@@ -25,7 +26,6 @@ main {
 .top-banner {
     display: flex;
     justify-content: space-between;
-    /* grid-template-columns: repeat(2, 1fr); */
     background: #161616;
     border-radius: 30px;
 }
@@ -36,7 +36,7 @@ main {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 6ex;
 }
 
 .text-size {
@@ -45,9 +45,11 @@ h1 {
 }
 
 .image {
+
     position: relative;
     margin: 10px 15px 0 10px;
     width: 100%;
+
 
 }
 
@@ -126,6 +128,29 @@ h1 {
     width: 300px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.blog-flag {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog {
+    box-shadow: 6px solid gray;
+}
+
+.flag {}
+
+.blog-button {
+    padding-left: 20px;
+}
+
+.blog-title {
+    padding-left: 20px;
 }
 
 
@@ -133,6 +158,7 @@ h1 {
 .blog-duration {
     display: flex;
     justify-content: space-between;
+    padding: 0 80px 0 20px;
 }
 
 
@@ -140,16 +166,65 @@ h1 {
 
 
 /* footer section start  */
-.goal {
-    /* color: #E5E5E5; */
+
+footer {
+    height: 444px;
+    background: #161616;
+
+}
+
+h2 {
     text-align: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    padding-top: 70px;
 }
 
-.footer-menu {
+hr {
+    margin-top: 10px;
+    width: 1000px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.list-option {
     display: flex;
+    justify-content: center;
+    margin: 40px;
 
 }
 
-.list-item {
+ul li {
     list-style: none;
+    margin: 0 20px 0 20px;
+
 }
+
+ul li a {
+    text-decoration: none;
+    color: #B9B9B9;
+
+}
+
+/* social media icons  */
+
+.list-icons {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+
+}
+
+/* resposive for mobile  */
+
+@media only screen and(max-width:576) {
+    .top-banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+
+/* i am sorry vaiya onk onk chesta korechi vaiya tar por o kono vabei responsive korte parlam na khawya dawya sob vulei gechilam tar por o kono vabei korte parlam na code jotoi dischi kono kaj e hocche na  */
